@@ -1,0 +1,64 @@
+2011-03-26 23:18:54 Error: Testing LogError() basic function
+2011-03-26 23:18:54 Error: Testing with multi-line string
+2011-03-26 23:39:03 Error: [MissingTableException] Database table atoms for model Atom was not found.
+#0 /Users/o_o/Sites/cakephp/cake/libs/model/model.php(2885): Model->setSource('atoms')
+#1 /Users/o_o/Sites/cakephp/cake/tests/lib/cake_test_fixture.php(80): Model->getDataSource()
+#2 /Users/o_o/Sites/cakephp/cake/tests/lib/cake_test_fixture.php(62): CakeTestFixture->init()
+#3 /Users/o_o/Sites/cakephp/cake/tests/lib/cake_fixture_manager.php(155): CakeTestFixture->__construct(Object(DboMysql))
+#4 /Users/o_o/Sites/cakephp/cake/tests/lib/cake_fixture_manager.php(68): CakeFixtureManager->_loadFixtures(Array)
+#5 /Users/o_o/Sites/cakephp/cake/tests/lib/cake_test_runner.php(53): CakeFixtureManager->fixturize(Object(AtomTest))
+#6 /Users/o_o/Sites/cakephp/cake/tests/lib/cake_test_suite_command.php(112): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#7 /Users/o_o/Sites/cakephp/cake/tests/lib/cake_test_suite_dispatcher.php(248): CakeTestSuiteCommand->run(Array)
+#8 /Users/o_o/Sites/cakephp/cake/tests/lib/cake_test_suite_dispatcher.php(94): CakeTestSuiteDispatcher->_runTestCase()
+#9 /Users/o_o/Sites/cakephp/cake/tests/lib/cake_test_suite_dispatcher.php(111): CakeTestSuiteDispatcher->dispatch()
+#10 /Users/o_o/Sites/cakephp/app/webroot/test.php(86): CakeTestSuiteDispatcher::run()
+#11 {main}
+2011-03-27 01:03:11 Error: [MissingViewException] View file "/Users/o_o/Sites/cakephp/app/views/atoms/index.ctp" is missing.
+#0 /Users/o_o/Sites/cakephp/cake/libs/view/view.php(389): View->_getViewFileName(NULL)
+#1 /Users/o_o/Sites/cakephp/cake/libs/controller/controller.php(869): View->render(NULL, NULL)
+#2 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(152): Controller->render()
+#3 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(99): Dispatcher->_invoke(Object(AtomsController), Object(CakeRequest))
+#4 /Users/o_o/Sites/cakephp/app/webroot/index.php(80): Dispatcher->dispatch(Object(CakeRequest))
+#5 {main}
+2011-03-27 01:03:14 Error: [MissingViewException] View file "/Users/o_o/Sites/cakephp/app/views/atoms/index.ctp" is missing.
+#0 /Users/o_o/Sites/cakephp/cake/libs/view/view.php(389): View->_getViewFileName(NULL)
+#1 /Users/o_o/Sites/cakephp/cake/libs/controller/controller.php(869): View->render(NULL, NULL)
+#2 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(152): Controller->render()
+#3 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(99): Dispatcher->_invoke(Object(AtomsController), Object(CakeRequest))
+#4 /Users/o_o/Sites/cakephp/app/webroot/index.php(80): Dispatcher->dispatch(Object(CakeRequest))
+#5 {main}
+2011-03-27 01:03:21 Error: [MissingViewException] View file "/Users/o_o/Sites/cakephp/app/views/atoms/index.ctp" is missing.
+#0 /Users/o_o/Sites/cakephp/cake/libs/view/view.php(389): View->_getViewFileName(NULL)
+#1 /Users/o_o/Sites/cakephp/cake/libs/controller/controller.php(869): View->render(NULL, NULL)
+#2 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(152): Controller->render()
+#3 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(99): Dispatcher->_invoke(Object(AtomsController), Object(CakeRequest))
+#4 /Users/o_o/Sites/cakephp/app/webroot/index.php(80): Dispatcher->dispatch(Object(CakeRequest))
+#5 {main}
+2011-03-27 01:41:38 Error: [MissingActionException] Action AtomsController::delete() could not be found.
+#0 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(99): Dispatcher->_invoke(Object(AtomsController), Object(CakeRequest))
+#1 /Users/o_o/Sites/cakephp/app/webroot/index.php(80): Dispatcher->dispatch(Object(CakeRequest))
+#2 {main}
+2011-03-27 01:55:53 Error: [CakeException] Method getClientIP does not exist
+#0 /Users/o_o/Sites/cakephp/app/controllers/atoms_controller.php(27): CakeRequest->__call('getClientIP', Array)
+#1 /Users/o_o/Sites/cakephp/app/controllers/atoms_controller.php(27): CakeRequest->getClientIP()
+#2 [internal function]: AtomsController->add()
+#3 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(148): call_user_func_array(Array, Array)
+#4 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(99): Dispatcher->_invoke(Object(AtomsController), Object(CakeRequest))
+#5 /Users/o_o/Sites/cakephp/app/webroot/index.php(80): Dispatcher->dispatch(Object(CakeRequest))
+#6 {main}
+2011-03-27 01:57:33 Error: [CakeException] Method getClientIP does not exist
+#0 /Users/o_o/Sites/cakephp/app/controllers/atoms_controller.php(28): CakeRequest->__call('getClientIP', Array)
+#1 /Users/o_o/Sites/cakephp/app/controllers/atoms_controller.php(28): CakeRequest->getClientIP()
+#2 [internal function]: AtomsController->add()
+#3 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(148): call_user_func_array(Array, Array)
+#4 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(99): Dispatcher->_invoke(Object(AtomsController), Object(CakeRequest))
+#5 /Users/o_o/Sites/cakephp/app/webroot/index.php(80): Dispatcher->dispatch(Object(CakeRequest))
+#6 {main}
+2011-03-27 01:58:03 Error: [CakeException] Method getClientIP does not exist
+#0 /Users/o_o/Sites/cakephp/app/controllers/atoms_controller.php(28): CakeRequest->__call('getClientIP', Array)
+#1 /Users/o_o/Sites/cakephp/app/controllers/atoms_controller.php(28): CakeRequest->getClientIP()
+#2 [internal function]: AtomsController->add()
+#3 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(148): call_user_func_array(Array, Array)
+#4 /Users/o_o/Sites/cakephp/cake/libs/dispatcher.php(99): Dispatcher->_invoke(Object(AtomsController), Object(CakeRequest))
+#5 /Users/o_o/Sites/cakephp/app/webroot/index.php(80): Dispatcher->dispatch(Object(CakeRequest))
+#6 {main}
