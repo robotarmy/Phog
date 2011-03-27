@@ -1,0 +1,9 @@
+CREATE TABLE atoms (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  ip     VARCHAR(500),
+  string VARCHAR(500),
+  value  INTEGER(24),
+  data TEXT,
+  created DATETIME DEFAULT NULL,
+  modified DATETIME DEFAULT NULL
+);
