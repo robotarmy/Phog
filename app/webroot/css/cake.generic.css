@@ -76,10 +76,16 @@ ul, li {
 #header{
 	padding: 10px 20px;
 }
+
+#header #gnu {
+	background: #003d4c url('../img/gnu.icon.png') no-repeat right;
+  height:140px;
+}
 #header h1 {
 	line-height:20px;
-	background: #003d4c url('../img/cake.icon.png') no-repeat left;
+	background: #003d4c;
 	color: #fff;
+  font-size:3.4em;
 	padding: 0px 30px;
 }
 #header h1 a {

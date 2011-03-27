@@ -190,7 +190,7 @@ class ControllerTestCase extends CakeTestCase {
 		if (strtoupper($options['method']) == 'GET') {
 			$_GET = $options['data'];
 			$_POST = array();
-		} else {
+    } else {
 			$_POST = array('data' => $options['data']);
 			$_GET = array();
 		}
